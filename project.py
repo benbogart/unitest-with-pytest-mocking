@@ -5,6 +5,10 @@ def fetch_goggles():
     # ...
     sleep(4)
 
-    response =  {"foo": True}
+    response =  {'status':200,
+                 "foo": True}
+
+    # return a 408 (timeout) status code 
+    response =  {"status": 408}
 
     return response
