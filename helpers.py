@@ -1,7 +1,10 @@
 
-def add_col(df, colname, coldata):
-    
-    coldata = pd.Series(coldata)
-    # add a column to a DataFrame
-    df[colname] = coldata
-    return df
+
+def fetch_goggles():
+    # make an api call to goggles.com
+    # ...
+
+    response =  {'status':200,
+                 "count": 5}
+
+    return response
