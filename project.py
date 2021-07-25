@@ -9,8 +9,8 @@ def fetch_goggles():
     response =  {'status':200,
                  "foo": True}
 
-    # return a 408 (timeout) status code 
-    response =  {"status": 408}
+    # return a 408 (timeout) status code (uncomment to test)
+    # response =  {"status": 408}
 
     return response
 
